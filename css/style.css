@@ -1,0 +1,64 @@
+/* defining styles for the body */
+body{
+    margin:5% 10% 5% 10%;
+    height:100%;
+    background-image:url(../image/image3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* designing for the logo of the Bundesagentur für Arbeit */
+.logo{
+    width:30%;
+    /* height:10%; */
+    position:absolute;
+    left:15%; top:5%;
+}
+/* designing for the logo of DCI */
+.logo1{
+    width:10%;
+    /* height:10%; */
+    position:absolute;
+    right:20%; top:4%;
+}
+/* defining style for the entire text */
+.text{
+    text-align: left;
+    color:white;
+    border: 0.5px solid rgba(255,255,255,0.0);
+    background-color:rgba(66, 59, 59, 0.3);
+    border-radius:5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height:15px;
+    text-shadow: 5px 5px 5px black;
+    /* text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;; */
+    font-size:1.1rem;
+    font-weight: bold;
+    /* width: 700px; */
+    position:absolute;
+    left:18%;
+    top:38%;
+}
+/* defining style for the marquee */
+.animation{
+    border:0.1 px solid rgba(255,255,255,0.0);
+    width:80%;
+    font-family:'Satisfy', cursive;
+    color:rgba(194, 9, 18, 0.8);
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top:22%; left:8%;
+}
+/* defining style for the word: Dankeschön */
+.edit{
+    border:0.1px solid rgba(255,255,255,0.0);
+    font-weight:bold;
+    letter-spacing: 15px;
+    color:rgba(31, 27, 31, 0.9);
+    font-family: 'Staatliches', cursive;
+    font-size:1.6rem;
+    color:white;
+    text-shadow: 5px 5px 5px black;
+    position:absolute;
+    top:107%; left:25%;
+}
